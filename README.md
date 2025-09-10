@@ -80,6 +80,8 @@ O modelo busca **classificar risco de gás** a partir das leituras dos sensores.
 
 ---
 
+## Link do youtube: https://youtu.be/Smd7N-1tFBY
+
 ## 📁 Estrutura de pastas
 
 project/
