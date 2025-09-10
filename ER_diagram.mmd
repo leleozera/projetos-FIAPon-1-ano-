@@ -1,0 +1,44 @@
+erDiagram
+    DEVICE {
+      VARCHAR device_id PK "esp32_1"
+      VARCHAR name
+      VARCHAR location
+      TIMESTAMP created_at
+    }
+    SENSOR_TYPE {
+      INTEGER sensor_type_id PK
+      VARCHAR type_name
+      VARCHAR unit
+      VARCHAR description
+    }
+    SENSOR {
+      VARCHAR sensor_id PK
+      VARCHAR device_id FK
+      INTEGER sensor_type_id FK
+      VARCHAR pin
+      VARCHAR meta
+      TIMESTAMP installed_at
+    }
+    READING_STATUS {
+      INTEGER status_id PK
+      VARCHAR label
+      VARCHAR description
+    }
+    READING {
+      INTEGER reading_id PK
+      VARCHAR device_id FK
+      TIMESTAMP timestamp
+      NUMBER temperature
+      NUMBER humidity
+      NUMBER accel_x
+      NUMBER accel_y
+      NUMBER accel_z
+      INTEGER ldr_value
+      INTEGER gas_value
+      VARCHAR raw_payload
+      INTEGER status_id FK
+    }
+    DEVICE ||--o{ SENSOR : "has"
+    SENSOR_TYPE ||--o{ SENSOR : "classifies"
+    SENSOR ||--o{ READING : "sends"
+    READING_STATUS ||--o{ READING : "tags"
