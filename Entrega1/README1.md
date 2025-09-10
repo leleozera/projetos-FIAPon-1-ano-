@@ -50,4 +50,6 @@ RM: 564996
 
 ##📷 Link do vídeo
 
-https://youtu.be/cBr5mu8oWXk
+https://youtu.be/cBr5mu8oWXk - Vídeo entrega 1
+
+https://youtu.be/QACJfPmIBVY - Vídeo entrega 2
