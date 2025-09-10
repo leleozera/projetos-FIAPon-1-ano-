@@ -1,55 +1,84 @@
-# 📊 Projeto PBL - Fase 4
 
-
-Este repositório contém a entrega da **Fase 4 do Projeto PBL**, que aborda a aplicação de técnicas de **Machine Learning** para análise e previsão de dados agrícolas.  
-
-
-Toda a implementação, explicação detalhada e passo a passo da solução estão documentados no **Jupyter Notebook** disponível neste repositório.  
 
 ---
 
-## 🚀 Como acessar o projeto
+# 🌱 Projeto PBL - Fase 4
 
-1. Clone este repositório:
-   ```bash
+📊 **Aplicação de Machine Learning em Dados Agrícolas**
 
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+---
 
+## 📖 Descrição
 
-2.Acesse o diretório:
+Este repositório contém a entrega da **Fase 4 do Projeto PBL**, que explora a utilização de **técnicas de Machine Learning** para análise e previsão de dados agrícolas.
 
+Toda a **implementação completa**, acompanhada de **explicações detalhadas** e o **passo a passo da solução**, está documentada no **Jupyter Notebook** incluído neste repositório.
 
+---
+
+## 🚀 Como Executar o Projeto
+
+1️⃣ **Clone este repositório:**
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+2️⃣ **Acesse o diretório:**
+
+```bash
 cd seu-repositorio
+```
 
+3️⃣ **Abra o Jupyter Notebook:**
 
-3.Abra o Jupyter Notebook:
-
-
+```bash
 jupyter notebook LeonardoNunes_rm565518_pbl_fase4.ipynb
+```
 
+---
 
+## 📂 Estrutura do Repositório
 
-##📌 Estrutura do Repositório
+```
+📦 seu-repositorio
+ ┣ 📜 LeonardoNunes_rm565518_pbl_fase4.ipynb   # Notebook principal com a solução completa
+ ┣ 📜 README.md                                # Documento introdutório
+```
 
+---
 
-LeonardoNunes_rm565518_pbl_fase4.ipynb → Notebook principal com todo o desenvolvimento da solução.
+## 👨‍💻 Autores
 
+* **Leonardo Nunes**
+  📌 RM: 565518
 
-README.md → Documento introdutório com instruções de acesso.
+* **Erick Souza Pereira**
+  📌 RM: 564996
 
+---
 
-##🧑‍💻 Autores
+## 🎥 Links das Entregas
 
-Leonardo Nunes
-RM: 565518
+* 📹 [Entrega 1](https://youtu.be/cBr5mu8oWXk)
+* 📹 [Entrega 2](https://youtu.be/QACJfPmIBVY)
 
+---
 
-Erick Souza Pereira
-RM: 564996
+## 🧩 Tecnologias Utilizadas
 
+* 🐍 **Python**
+* 📓 **Jupyter Notebook**
+* 🤖 **Scikit-learn** (Machine Learning)
+* 📊 **Pandas & Numpy** (Manipulação de dados)
+* 📈 **Matplotlib & Seaborn** (Visualização de dados)
 
-##📷 Link do vídeo
+---
 
-https://youtu.be/cBr5mu8oWXk - Vídeo entrega 1
+## ✅ Observações
 
-https://youtu.be/QACJfPmIBVY - Vídeo entrega 2
+🔗 Toda a lógica e explicações detalhadas encontram-se no **notebook principal**, que deve ser executado para acompanhamento da solução.
+
+---
+
+Quer que eu adicione também uma seção **📌 Resultados Obtidos** (com um resumo dos modelos de regressão/testes que vocês fizeram na Fase 4) para deixar o README ainda mais completo?
