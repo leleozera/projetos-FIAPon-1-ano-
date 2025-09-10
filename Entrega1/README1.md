@@ -29,7 +29,7 @@ jupyter notebook LeonardoNunes_rm565518_pbl_fase4.ipynb
 
 
 
-#📌 Estrutura do Repositório
+##📌 Estrutura do Repositório
 
 
 LeonardoNunes_rm565518_pbl_fase4.ipynb → Notebook principal com todo o desenvolvimento da solução.
@@ -38,7 +38,7 @@ LeonardoNunes_rm565518_pbl_fase4.ipynb → Notebook principal com todo o desenvo
 README.md → Documento introdutório com instruções de acesso.
 
 
-#🧑‍💻 Autores
+##🧑‍💻 Autores
 
 Leonardo Nunes
 RM: 565518
@@ -48,6 +48,6 @@ Erick Souza Pereira
 RM: 564996
 
 
-#📷 Link do vídeo
+##📷 Link do vídeo
 
 https://youtu.be/cBr5mu8oWXk
