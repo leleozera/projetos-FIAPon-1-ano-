@@ -10,14 +10,17 @@ Toda a implementação, explicação detalhada e passo a passo da solução est�
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+
+    git clone https://github.com/seu-usuario/seu-repositorio.git
 
 
 2.Acesse o diretório:
+
 cd seu-repositorio
 
 
 3.Abra o Jupyter Notebook:
+
 jupyter notebook LeonardoNunes_rm565518_pbl_fase4.ipynb
 
 
@@ -33,5 +36,6 @@ README.md → Documento introdutório com instruções de acesso.
 
 Leonardo Nunes
 RM: 565518
+
 Erick Souza Pereira
 RM: 564996
