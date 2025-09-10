@@ -2,7 +2,7 @@
 
 ---
 
-# 🌱 Projeto PBL - Fase 4
+# 🌱 Projeto PBL - Fase 4 - Entrega 1
 
 📊 **Aplicação de Machine Learning em Dados Agrícolas**
 
@@ -81,4 +81,31 @@ jupyter notebook LeonardoNunes_rm565518_pbl_fase4.ipynb
 
 ---
 
-Quer que eu adicione também uma seção **📌 Resultados Obtidos** (com um resumo dos modelos de regressão/testes que vocês fizeram na Fase 4) para deixar o README ainda mais completo?
+---
+
+## 🏫 Entrega 2 - Justificativas
+
+---
+
+## ✅ Escolha Recomendada
+A solução é **hospedar tudo na região São Paulo (sa-east-1)**, mantendo **API, Machine Learning e armazenamento** no Brasil.
+
+---
+
+## 🚀 Justificativas
+
+### 🔹 Latência & Performance
+- A proximidade geográfica reduz RTT e melhora a ingestão dos dados dos sensores.  
+- Menor risco de atrasos e falhas na transmissão.
+
+### 🔹 Conformidade Legal
+- A **LGPD** regula dados coletados no Brasil; manter dados em território nacional facilita auditorias e compliance.  
+- Em casos com **restrições legais explícitas** (como saúde, financeiro, governo), o armazenamento no Brasil pode ser **obrigatório**.
+
+### 🔹 Custos & Operação
+- Evita custos extras com **tráfego inter-regional** (egress).  
+- Simplifica o gerenciamento da infraestrutura e da fatura.
+
+### 🔹 Serviços Disponíveis
+- A região **sa-east-1** é uma região AWS oficial, com múltiplas **Availability Zones** e suporte a serviços como **EC2, EBS, S3, VPC, CloudWatch e KMS**.
+
