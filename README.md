@@ -1,29 +1,32 @@
+Beleza 👍
+Seu README já está muito bem estruturado, só que alguns pontos estão com formatação quebrada (listas, tabelas, links e tags HTML). Eu corrigi os erros de sintaxe, deixei o Markdown mais limpo e mantive o estilo acadêmico/profissional.
 
------
+Aqui está a versão arrumada para você substituir no seu GitHub:
+
+---
 
 ````markdown
 # FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
-<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+  <a href="https://www.fiap.com.br/">
+    <img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" border="0" width="40%" height="40%">
+  </a>
 </p>
 
-<br>
+---
 
 # Enterprise Challenge – Fase 5: Pipeline de Dados Industrial 4.0
 
 ## Hermes Reply – Integração Fim-a-Fim: Sensor, ML e Dashboard
 
-## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Leonardo Nunes Urbano 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Erick Souza Pereira 2</a>
+## 👨‍🎓 Integrantes
+- [Leonardo Nunes Urbano 1](https://www.linkedin.com/company/inova-fusca)
+- [Erick Souza Pereira 2](https://www.linkedin.com/company/inova-fusca)
 
-## 👩‍🏫 Professores:
-### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Lucas Gomes Moreira</a>
-### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">ANDRÉ GODOI CHIOVATO</a>
-
+## 👩‍🏫 Professores
+**Tutor(a):** [Lucas Gomes Moreira](https://www.linkedin.com/company/inova-fusca)  
+**Coordenador(a):** [André Godoi Chiovato](https://www.linkedin.com/company/inova-fusca)
 
 ---
 
@@ -33,13 +36,13 @@ Este projeto é a **Entrega Final (Fase 5)** do Enterprise Challenge, consolidan
 
 O objetivo é demonstrar um **pipeline de dados industrial 4.0** completo, onde leituras simuladas de sensores (ESP32) fluem de forma confiável para camadas analíticas e de decisão.
 
-### **Integração e Vínculo com Fases Anteriores**
+### Integração e Vínculo com Fases Anteriores
 
 | Entrega | Foco | Decisão Técnica na Entrega 4 (MVP) |
-| :--- | :--- | :--- |
+| :------ | :--- | :-------------------------------- |
 | **Entrega 1** | Arquitetura Cloud/Edge | Implementação de uma **Arquitetura Edge/Monolítica** (Python/SQLite/Streamlit localmente) como *Proof of Concept* do fluxo completo. |
 | **Entrega 2** | Simulação e Coleta | Utilização do **`simulated_readings.csv`** para replicar as leituras do circuito ESP32 (simulando múltiplos sensores, como Gás e Temperatura) e ingestão via carga *bulk*. |
-| **Entrega 3** | Banco de Dados e ML | Utilização do **Modelo Relacional** de 5 tabelas (tabelas `DEVICE`, `READING`, etc.) no **SQLite** e operacionalização de um modelo de **Classificação (Random Forest)** para prever o estado de alerta. |
+| **Entrega 3** | Banco de Dados e ML | Utilização do **Modelo Relacional** de 5 tabelas (`DEVICE`, `READING`, etc.) no **SQLite** e operacionalização de um modelo de **Classificação (Random Forest)** para prever o estado de alerta. |
 
 ---
 
@@ -47,72 +50,77 @@ O objetivo é demonstrar um **pipeline de dados industrial 4.0** completo, onde 
 
 A arquitetura final ilustra o encadeamento dos blocos, desde a fonte de dados até a visualização e alertas.
 
------
+---
 
-## 📁 Estrutura de pastas
+## 📁 Estrutura de Pastas
 
 A estrutura foi organizada para facilitar a reprodutibilidade e o acesso aos entregáveis de cada fase:
 
-  - **`.github`**: Arquivos de configuração do GitHub.
-  - **`assets`**: Imagens, logos e diagramas estáticos do projeto.
-  - **`db`**: Contém o script `create_tables_sqlite.sql` e o banco de dados `sensor_data.db`.
-  - **`ingest`**: Contém o arquivo `simulated_readings.csv` (simulação da coleta) e evidências iniciais.
-  - **`ml`**: Contém o `ml_pipeline.py` (código de treino/inferência) e o modelo salvo.
-  - **`outputs`**: Resultados visuais do ML (`confusion_matrix.png` e `feature_importance.png`).
-  - **`dashboard`**: Contém o `app.py` da aplicação Streamlit (visualização e alertas).
-  - **`README.md`**: Este documento.
+- **`.github`** → Arquivos de configuração do GitHub  
+- **`assets`** → Imagens, logos e diagramas estáticos do projeto  
+- **`db`** → Script `create_tables_sqlite.sql` e o banco `sensor_data.db`  
+- **`ingest`** → Arquivo `simulated_readings.csv` (simulação da coleta) e evidências iniciais  
+- **`ml`** → Código `ml_pipeline.py` (treino/inferência) e modelo salvo  
+- **`outputs`** → Resultados visuais do ML (`confusion_matrix.png`, `feature_importance.png`)  
+- **`dashboard`** → Aplicação Streamlit `app.py` (visualização e alertas)  
+- **`README.md`** → Este documento  
 
------
+---
 
-## 🔧 Como executar o código (Reprodutibilidade - Item 4.6)
+## 🔧 Como Executar o Código (Reprodutibilidade - Item 4.6)
 
-Este guia detalha a ordem de execução para replicar o fluxo fim-a-fim.
+### Requisitos
 
-### **Requisitos:**
-
-  * Python 3.10 ou superior
-  * Bibliotecas: `streamlit`, `pandas`, `scikit-learn`, `matplotlib`, `joblib`
-
-<!-- end list -->
+- Python 3.10 ou superior  
+- Bibliotecas: `streamlit`, `pandas`, `scikit-learn`, `matplotlib`, `joblib`  
 
 ```bash
-# Instalar dependências (o sqlite3 é nativo do Python)
+# Instalar dependências (sqlite3 já vem nativo no Python)
 pip install streamlit pandas scikit-learn matplotlib joblib
-```
+````
 
-### **Ordem de Execução do Pipeline Completo:**
+### Ordem de Execução do Pipeline Completo
 
-| Passo | Objetivo | Comando |
-| :--- | :--- | :--- |
-| **1. Criação do DB** | Criar o esquema de tabelas (Entrega 3). | `sqlite3 sensor_data.db < create_tables_sqlite.sql` |
-| **2. Ingestão e ML** | Carregar dados, treinar o modelo e gerar as métricas. | `python ml_pipeline.py` |
-| **3. Dashboard e Alerta** | Iniciar a interface de visualização. | `python -m streamlit run dashboard/app.py` |
+| Passo                     | Objetivo                                          | Comando                                             |
+| :------------------------ | :------------------------------------------------ | :-------------------------------------------------- |
+| **1. Criação do DB**      | Criar o esquema de tabelas (Entrega 3)            | `sqlite3 sensor_data.db < create_tables_sqlite.sql` |
+| **2. Ingestão e ML**      | Carregar dados, treinar o modelo e gerar métricas | `python ml_pipeline.py`                             |
+| **3. Dashboard e Alerta** | Iniciar a interface de visualização               | `streamlit run dashboard/app.py`                    |
 
------
+---
 
-### **Alerta Mínimo **
+### 🚨 Alerta Mínimo
 
-O alerta mínimo é acionado no dashboard quando a leitura mais recente do `gas_value` excede o **threshold de 800 PPM**, conforme definido no `ml_pipeline.py`.
+O alerta é acionado no dashboard quando a leitura mais recente do **`gas_value`** excede o **threshold de 800 PPM**, conforme definido no `ml_pipeline.py`.
 
------
+---
 
 ## 🎥 Demonstração em Vídeo
 
+📌 [Clique aqui para assistir no YouTube](https://youtu.be/aAzQ2A8b1CQ)
 
-**Link do YouTube: https://youtu.be/aAzQ2A8b1CQ
------
+---
 
-## 🗃 Histórico de lançamentos
+## 🗃 Histórico de Lançamentos
 
-  * 0.5.0 - 20/04/2024 (Entrega Final - enterprise challenge)
-  * 0.4.0 - XX/XX/2024 
-  * 0.3.0 - XX/XX/2024
-  * 0.2.0 - XX/XX/2024
-  * 0.1.0 - XX/XX/2024
+* **0.5.0** – 20/04/2024 (Entrega Final – Enterprise Challenge)
+* **0.4.0** – XX/XX/2024
+* **0.3.0** – XX/XX/2024
+* **0.2.0** – XX/XX/2024
+* **0.1.0** – XX/XX/2024
+
+---
 
 ## 📋 Licença
 
-\<img style="height:22px\!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"\>\<img style="height:22px\!important;margin-left:3px;vertical-align:text-bottom;width:22px;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"\>\<p xmlns:cc="http://creativecommons.org/ns\#" xmlns:dct="http://purl.org/dc/terms/"\>\<a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template"\>MODELO GIT FIAP\</a\> por \<a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br"\>Fiap\</a\> está licenciado sobre \<a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="\_blank" rel="license noopener noreferrer" style="display:inline-block;"\>Attribution 4.0 International\</a\>.\</p\>
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" height="22px" style="margin-left:3px;vertical-align:text-bottom;">
+<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" height="22px" style="margin-left:3px;vertical-align:text-bottom;">
+
+[MODELO GIT FIAP](https://github.com/agodoi/template) por [Fiap](https://fiap.com.br) está licenciado sob a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1).
 
 ```
+
+---
+
+Quer que eu também deixe esse README com **sumário automático (table of contents com links internos)** pra facilitar a navegação, ou prefere manter só no formato corrido?
 ```
