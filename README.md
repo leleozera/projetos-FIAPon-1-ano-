@@ -6,7 +6,7 @@
 
 <br>
 
-# Nome do projeto
+# Nome do projeto - Projeto Yolo
 
 ## Nome do grupo
 
@@ -21,30 +21,29 @@
 - <a href="https://www.linkedin.com/company/inova-fusca">ANDRÉ GODOI CHIOVATO</a>
 
 
-## 📜 Descrição
 
-O projeto "Sistema de Gestão de Colheitas" tem como objetivo auxiliar produtores rurais no controle e monitoramento de suas colheitas, fornecendo uma solução simples, eficiente e integrada com banco de dados Oracle.
+## 🎯 Descrição do Projeto
 
-Durante o desenvolvimento, foi utilizado Python para criação de um sistema interativo de terminal que permite registrar colheitas (com data, quantidade e método), listar relatórios ordenados por data e excluir registros antigos ou errôneos. A ferramenta também utiliza bibliotecas como oracledb para conexão com o Oracle Database e pandas para exibição tabular dos dados.
+Este projeto tem como objetivo desenvolver um modelo de **detecção de objetos** utilizando o algoritmo **YOLO (You Only Look Once)**.
 
-A proposta nasce da dor enfrentada por pequenos e médios produtores que ainda usam métodos manuais ou planilhas dispersas para esse tipo de controle. Ao digitalizar esse processo com um sistema simples e funcional, visamos aumentar a produtividade, evitar desperdícios e contribuir com a sustentabilidade no agronegócio.
+O trabalho foi realizado a partir de um **conjunto de imagens de dois objetos** — um **mouse** e um **controle de videogame** — que foram **rotuladas manualmente** na plataforma **[MakeSense.ai](https://www.makesense.ai/)** para gerar os arquivos de anotação necessários ao treinamento do modelo.
+
+Após o processo de rotulagem, os dados foram organizados em pastas de **treino**, **validação** e **teste**, permitindo o uso eficiente do modelo YOLO para:
+
+* Treinar a rede neural com as imagens anotadas;
+* Realizar testes de predição com novas imagens;
+* Avaliar o desempenho do modelo por meio de métricas como **acurácia** e **precisão**.
+
+Com isso, o projeto demonstra a aplicação prática da **Visão Computacional** e do **Aprendizado de Máquina** na identificação automática de objetos em imagens.
+
 
 
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
+- <b>.ipynb</b>: arquivo do colab, com todo o código utilizado
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
 
 - <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
@@ -52,13 +51,17 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 Requisitos:
 
-Python 3.11 ou superior
+Acessar arquivo do colab, e rodar as seguintes intalações:
 
-Oracle Client instalado ou Oracle Instant Client
+-from google.colab import drive   #integração drive e colab
+drive.mount('/content/drive')
 
-Biblioteca oracledb
 
-Biblioteca pandas
+-git clone https://github.com/ultralytics/yolov5.git
+
+
+-pip install -r yolov5/requirements.txt
+
 
 
 ## 🗃 Histórico de lançamentos
