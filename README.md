@@ -51,7 +51,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 Requisitos:
 
-Acessar arquivo do colab, e rodar as seguintes intalações
+Acessar arquivo do colab, e rodar as seguintes intalações:
 
 -from google.colab import drive   #integração drive e colab
 drive.mount('/content/drive')
