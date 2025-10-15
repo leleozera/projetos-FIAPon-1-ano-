@@ -24,7 +24,7 @@
 
 ## 🎯 Descrição do Projeto
 
-Este projeto tem como objetivo desenvolver um modelo de **detecção de objetos** utilizando o algoritmo **YOLO (You Only Look Once)**.
+1.Este projeto tem como objetivo desenvolver um modelo de **detecção de objetos** utilizando o algoritmo **YOLO (You Only Look Once)**.
 
 O trabalho foi realizado a partir de um **conjunto de imagens de dois objetos** — um **mouse** e um **controle de videogame** — que foram **rotuladas manualmente** na plataforma **[MakeSense.ai](https://www.makesense.ai/)** para gerar os arquivos de anotação necessários ao treinamento do modelo.
 
@@ -35,6 +35,10 @@ Após o processo de rotulagem, os dados foram organizados em pastas de **treino*
 * Avaliar o desempenho do modelo por meio de métricas como **acurácia** e **precisão**.
 
 Com isso, o projeto demonstra a aplicação prática da **Visão Computacional** e do **Aprendizado de Máquina** na identificação automática de objetos em imagens.
+
+2.Classificação de Imagens com Redes Neurais Convolucionais (CNN). Este projeto tem como objetivo desenvolver e treinar uma Rede Neural Convolucional (CNN) capaz de classificar imagens em diferentes classes.
+
+A CNN foi projetada e treinada utilizando um conjunto de imagens previamente rotuladas, aplicando técnicas de processamento de imagens, aumento de dados (data augmentation) e otimização de hiperparâmetros para alcançar uma boa taxa de acurácia no reconhecimento das classes.
 
 
 ## 📷 Link do vídeo
@@ -59,14 +63,29 @@ Requisitos:
 
 Acessar arquivo do colab, e rodar as seguintes intalações:
 
--from google.colab import drive   #integração drive e colab
+from google.colab import drive   
 drive.mount('/content/drive')
 
 
--git clone https://github.com/ultralytics/yolov5.git
+!git clone https://github.com/ultralytics/yolov5.git
 
 
--pip install -r yolov5/requirements.txt
+!pip install -r yolov5/requirements.txt
+
+
+!pip install -q ultralytics 
+
+
+!pip install -q tensorflow
+
+
+!pip install -q opencv-python-headless
+
+
+!pip install -q seaborn matplotlib scikit-learn pandas
+
+
+!pip install numpy
 
 
 
