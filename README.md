@@ -37,6 +37,12 @@ Após o processo de rotulagem, os dados foram organizados em pastas de **treino*
 Com isso, o projeto demonstra a aplicação prática da **Visão Computacional** e do **Aprendizado de Máquina** na identificação automática de objetos em imagens.
 
 
+## 📷 Link do vídeo
+
+https://youtu.be/hFTIowB3OT8
+
+
+
 
 ## 📁 Estrutura de pastas
 
