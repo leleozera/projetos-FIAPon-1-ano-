@@ -45,7 +45,7 @@ wellwork_ai/
 
 # **🧩 Componentes do Projeto**
 
-Abaixo estão os módulos que compõem a solução, conforme desenvolvido na GS2.
+Abaixo estão os módulos que compõem a solução, conforme desenvolvido na GS2:
 
 ---
 
@@ -268,7 +268,5 @@ uvicorn api_fastapi:app --reload
 
 ---
 
-# **✨ Conclusão**
+# **📹 Link do vídeo**
 
-O **WellWork AI** demonstra como dados, IA e boas práticas de tecnologia podem se integrar para criar soluções reais na área de bem-estar corporativo.
-O projeto cobre de forma interdisciplinar Python, R, ML, Redes Neurais, Banco de Dados, API, Segurança e Cloud — exatamente como solicitado na GS2.
