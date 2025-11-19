@@ -1,8 +1,3 @@
-Aqui está um **README completo, organizado, bonito e pronto para usar no GitHub**, baseado exatamente no seu trabalho **GS2 – WellWork AI**.
-Você pode copiar e colar direto no repositório — ele já segue o padrão profissional de README para projetos acadêmicos.
-
----
-
 # **WellWork AI – Plataforma Inteligente de Bem-Estar no Trabalho**
 
 O **WellWork AI** é uma plataforma que utiliza dados simulados e técnicas de Inteligência Artificial para **monitorar bem-estar, engajamento e risco de burnout** em ambientes corporativos.
