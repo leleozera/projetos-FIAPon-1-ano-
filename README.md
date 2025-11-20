@@ -1,3 +1,33 @@
+# FIAP - Faculdade de Informática e Administração Paulista
+
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
+
+<br>
+
+# Nome do projeto - Projeto Yolo
+
+## Nome do grupo
+
+## 👨‍🎓 Integrantes: 
+- <a href="https://www.linkedin.com/company/inova-fusca">Leonardo Nunes Urbano 1</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Erick Souza Pereira 2</a>
+
+## 👩‍🏫 Professores:
+### Tutor(a) 
+- <a href="https://www.linkedin.com/company/inova-fusca">Lucas Gomes Moreira</a>
+### Coordenador(a)
+- <a href="https://www.linkedin.com/company/inova-fusca">ANDRÉ GODOI CHIOVATO</a>
+
+
+
+
+
+
+
+
+
 # **WellWork AI – Plataforma Inteligente de Bem-Estar no Trabalho**
 
 O **WellWork AI** é uma plataforma que utiliza dados simulados e técnicas de Inteligência Artificial para **monitorar bem-estar, engajamento e risco de burnout** em ambientes corporativos.
