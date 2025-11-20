@@ -294,6 +294,3 @@ uvicorn api_fastapi:app --reload
 *(inserir o arquivo arquitetura.png na pasta doc/)*
 
 ---
-
-# **📹 Link do vídeo**
-
