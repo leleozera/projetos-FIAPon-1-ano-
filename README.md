@@ -51,13 +51,13 @@ Criar uma solução integrada capaz de:
 ## **📂 Estrutura do Repositório**
 
 ```
-wellwork_ai/
+GS2/
   dados/
     dados_bem_estar.csv
     modelo_rf.pkl
-    modelo_rn.h5
+    modelo_rn.pkl
     preprocessador_rn.pkl
-    wellwork.db
+    Globalsolution.db
   python/
     gerar_dados.py
     ml_modelo_classico.py
@@ -66,9 +66,6 @@ wellwork_ai/
     api_fastapi.py
   r/
     analise_exploratoria.R
-  doc/
-    relatorio_global_solution.pdf
-    arquitetura.png
 ```
 
 ---
