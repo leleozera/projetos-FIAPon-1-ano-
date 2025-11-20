@@ -6,7 +6,7 @@
 
 <br>
 
-# Nome do projeto - Projeto Yolo
+# Nome do projeto - Projeto Wellwork.ai
 
 ## Nome do grupo
 
